@@ -1,0 +1,28 @@
+{
+  "projectName": "Requirement - Market Data Ingestion Service",
+  "projectType": "System Component",
+  "description": "An ultra-low latency microservice responsible for consuming, normalizing, and distributing high-throughput real-time tick data.",
+  "targetUsers": [
+    "End Users"
+  ],
+  "techStack": {
+    "primary": [
+      "rust"
+    ]
+  },
+  "coreFeatures": [
+    "High-throughput real-time tick data ingestion",
+    "Market data normalization",
+    "Fault-tolerant feed handling"
+  ],
+  "constraints": {
+    "timeline": "To be determined",
+    "teamSize": "To be determined",
+    "budget": "To be determined"
+  },
+  "nonFunctionalRequirements": {
+    "performance": "See requirement analysis"
+  },
+  "parentProject": "Requirement",
+  "componentName": "Market Data Ingestion Service"
+}

@@ -1,0 +1,39 @@
+{
+  "projectName": "Requirement",
+  "projectType": "Software Application",
+  "description": "Project: Position Doctor\nType: Trading Advisory System\n\nObjective:\nBuild an intelligent Position Monitoring Engine that works 24x7 and acts as an AI doctor for every live position.\n\nFeatures:\n- Real-time Position Monitoring\n- Health Scoring Engine (0-100)\n- Diagnostic Engine based on Decision Trees\n- Recommendation & AI Reasoner for narratives\n- Event & Alert Engine for notifications\n- Action Execution Layer for OMS one-tap integration\n- What-If Simulator\n\nTarget Users:\n- Retail Traders\n- Instit",
+  "rawContent": "Project: Position Doctor\nType: Trading Advisory System\n\nObjective:\nBuild an intelligent Position Monitoring Engine that works 24x7 and acts as an AI doctor for every live position.\n\nFeatures:\n- Real-time Position Monitoring\n- Health Scoring Engine (0-100)\n- Diagnostic Engine based on Decision Trees\n- Recommendation & AI Reasoner for narratives\n- Event & Alert Engine for notifications\n- Action Execution Layer for OMS one-tap integration\n- What-If Simulator\n\nTarget Users:\n- Retail Traders\n- Institutional Traders\n- Risk Managers\n- Quant Analysts\n\nConstraints:\n- Ultra-low latency required for market data ingestion\n- High availability, fault-tolerant\n- Backend MUST be strictly written in Rust\n\nNon-Functional Requirements:\n- Support high-throughput real-time tick data\n- Role-Based Access Control, API Security, PII Protection\n",
+  "targetUsers": [
+    "End Users"
+  ],
+  "techStack": {
+    "primary": [
+      "rust"
+    ]
+  },
+  "coreFeatures": [
+    "Real-time Position Monitoring",
+    "Health Scoring Engine (0-100)",
+    "Diagnostic Engine based on Decision Trees",
+    "Recommendation & AI Reasoner for narratives",
+    "Event & Alert Engine for notifications",
+    "Action Execution Layer for OMS one-tap integration",
+    "What-If Simulator",
+    "Retail Traders",
+    "Institutional Traders",
+    "Risk Managers",
+    "Quant Analysts",
+    "Ultra-low latency required for market data ingestion",
+    "High availability, fault-tolerant",
+    "Backend MUST be strictly written in Rust",
+    "Support high-throughput real-time tick data"
+  ],
+  "constraints": {
+    "timeline": "To be determined",
+    "teamSize": "To be determined",
+    "budget": "To be determined"
+  },
+  "nonFunctionalRequirements": {
+    "performance": "See requirement analysis"
+  }
+}

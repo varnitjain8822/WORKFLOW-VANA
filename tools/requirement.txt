@@ -1,0 +1,29 @@
+Project: Position Doctor
+Type: Trading Advisory System
+
+Objective:
+Build an intelligent Position Monitoring Engine that works 24x7 and acts as an AI doctor for every live position.
+
+Features:
+- Real-time Position Monitoring
+- Health Scoring Engine (0-100)
+- Diagnostic Engine based on Decision Trees
+- Recommendation & AI Reasoner for narratives
+- Event & Alert Engine for notifications
+- Action Execution Layer for OMS one-tap integration
+- What-If Simulator
+
+Target Users:
+- Retail Traders
+- Institutional Traders
+- Risk Managers
+- Quant Analysts
+
+Constraints:
+- Ultra-low latency required for market data ingestion
+- High availability, fault-tolerant
+- Backend MUST be strictly written in Rust
+
+Non-Functional Requirements:
+- Support high-throughput real-time tick data
+- Role-Based Access Control, API Security, PII Protection
